@@ -3,10 +3,4 @@ require 'rails_helper'
 RSpec.describe <%= @controller.controller %>, regressor: true, type: :routing do
   # === Routes (REST) ===
   <%= @controller.rest_routes %>
-  # === Callbacks (Before) ===
-  <%= @controller.before_callbacks %>
-  # === Callbacks (After) ===
-  <%= @controller.after_callbacks %>
-  # === Callbacks (Around) ===
-  <%= @controller.around_callbacks %>
 end
