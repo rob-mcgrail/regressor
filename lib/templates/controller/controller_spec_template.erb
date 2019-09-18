@@ -1,5 +1,5 @@
 require 'rails_helper'
 
-describe <%= @controller.controller %>, regressor: true do
+describe <%= @controller.controller %>, type: :routing do
   <%= @controller.rest_routes %>
 end
